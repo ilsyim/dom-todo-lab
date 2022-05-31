@@ -1,0 +1,16 @@
+body {
+  color: purple;
+  text-align: center; 
+  justify-content: center;
+  align-items: center; 
+}
+div {
+  text-align: center; 
+}  
+ul {
+  max-width: 1%;
+  display: inline-block; 
+  margin: 0px; 
+  padding-left: 0px; 
+} 
+
