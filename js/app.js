@@ -21,3 +21,13 @@ submitBtn.addEventListener('click', function(event) {
   inp.value = ''
 })
 
+resetBtn.addEventListener('click', function(event){
+  inp.textContent = ''
+  todoList.textContent = ''
+})
+
+todoList.addEventListener('click', onClick)
+function onClick(event){
+  event.target.hidden = true
+}
+
